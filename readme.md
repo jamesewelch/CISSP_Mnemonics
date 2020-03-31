@@ -43,17 +43,28 @@ Unclassified, Sensitive But Unclassified, Confidential, Secret, Top Secret
 
 # Domain 3: Security Engineering
 
+### Notes
+* Ceaser Cipher = Ceas3R (3 to right)
+* Twofish = pre and post whitening
+
 ### <u>Symmetric Encryption</u>
 
 23BRAIDS
 * Twofish (2 fish)
 * 3DES
 * Blowfish
-* RC5
+* RC5 (RC4, RC6)
 * AES
 * IDEA
 * DES
 * Skipjack 
+
+RC4 is streaming
+
+DES and 3DES modes
+* ECB (initial/first, doesn't support initialization vector)
+* the other 3 in middle are alphabetical (CBC, CFB, OFB)
+* CTR (last)
 
 ### <u>Asymmetric Encryption</u>
 
@@ -64,6 +75,11 @@ DEREK
 * El Gamal
 * Knapsack
 
+Discrete logarithms
+* Diffie-Hellman
+* El Gamal
+* Both sound like calculus professor names
+
 ### <u>Hash Functions</u>
 
 MSHH
@@ -72,15 +88,6 @@ MSHH
 * HMAC
 * HAVAL
 
-Discrete logarithms
-* Diffie-Hellman
-* El Gamal
-* Both sound like calculus professor names
-
-DES and 3DES modes
-* ECB (initial/first, doesn't support initialization vector)
-* the other 3 in middle are alphabetical (CBC, CFB, OFB)
-* CTR (last)
 
 ## Security Models
 
@@ -111,7 +118,14 @@ Clark-Wilson
 * TLC - Tampered, Logged, Consistent
 
 # Domain 4: Communications and Network Security
-  
+
+### <u>Firewalls</u>
+
+Firewalls are layer 3, 5, 7 (odd)
+* Layer 3 = Static Packets
+* Layer 5 = Circuit, Stateful, Anomaly
+* Layer 7 = Application
+
 ### <u>The OSI Reference Model</u>
 
 Physical (1), Data Link (2), Network (3), Transport (4), Session (5), Presentation (6), Application (7)
@@ -179,6 +193,18 @@ Urg (32), Ack (16), Psh (8), Rst (4), Syn (2), Fin (1)
 Prepare, Detect, Response, Mitigate, Report, Recovery, Remediate, Lessons Learned
 * Please Don't Rub My Red Round Rash Larry
 
+### <u>Forensic Evidence Steps</u>
+
+IP CEA PD
+* Identify
+* Preserve
+* Collect
+* Examine
+* Analyze
+* Presentation
+* Decision
+
+
 ### <u>Fire Extinguisher Classes</u>
 
 USA Classes
@@ -219,6 +245,11 @@ KODU
 
 
 
+# Unsorted
 
+RAID
+* RAID 1 = imagine the "1" is a mirror
 
- 
+Layers of Attack
+* Layer 4 = SYN 4 Fraggle
+* Layer 3 = Loki Smurf Teardrop
