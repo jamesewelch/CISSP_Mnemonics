@@ -66,7 +66,7 @@ DEREK
 
 ### <u>Hash Functions</u>
 
-M@SHH
+MSHH
 * MD5
 * SHA-1/2/3
 * HMAC
@@ -95,10 +95,10 @@ Star ( * ) Property
 
 Integrity vs Confidentiality models
 * Integrity models have "i"
- * Biba = Integrity
- * Clark-Wilson = Integrity
+** Biba = Integrity
+** Clark-Wilson = Integrity
 * Confidentiality
- * Bell-LaPadula = Confidentiality
+** Bell-LaPadula = Confidentiality
 
 Confidential
 * NRU (No Read Up)
