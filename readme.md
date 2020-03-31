@@ -251,5 +251,10 @@ RAID
 * RAID 1 = imagine the "1" is a mirror
 
 Layers of Attack
-* Layer 4 = SYN 4 Fraggle
+* Layer 7 = Worms
+* Layer 6 = 
+* Layer 5 = 
+* Layer 4 = SYN Fraggle
 * Layer 3 = Loki Smurf Teardrop
+* Layer 2 = ARP
+* Layer 1 = Physical
