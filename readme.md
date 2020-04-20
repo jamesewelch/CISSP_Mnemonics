@@ -4,8 +4,8 @@
 
 ### ISC2 Ethics Canons
 
-Protect, Act, Provide, Advance
-* PAPA
+PAPA
+* Protect, Act, Provide, Advance
 
 ## Risk Managment
 
@@ -31,20 +31,31 @@ DREAD
 
 ## Control Types
 
-Phyiscal, Technical/Logical, Administrative
-* PTA
+PTA
+* Phyiscal
+* Technical/Logical
+* Administrative
 
 ## RMF Framework 
 
-Categorize, Select, Implement, Assess, Authorize, Monitor
-* Crime Scene Investigators Always Act Modestly
+Crime Scene Investigators Always Act Modestly
+* Categorize
+* Select
+* Implement
+* Assess 
+* Authorize
+* Monitor
 
 # Domain 2: Asset Security
 
 ### US Military Classifications
 
-Unclassified, Sensitive But Unclassified, Confidential, Secret, Top Secret
-* U S Can Stop Terrorism 
+U S Can Stop Terrorism 
+* Unclassified
+* Sensitive But Unclassified
+* Confidential
+* Secret
+* Top Secret
 
 # Domain 3: Security Engineering
 
@@ -223,8 +234,12 @@ USA Classes
 
 ### <u>CMMI</u>
 
-Initial, Repeatable, Define, Measure, Optimize
-* IRDMO (thIRDMOon)
+IRDMO (thIRDMOon)
+* Initial
+* Repeatable
+* Define
+* Measure
+* Optimize
 
 ### <u>Database Security</u>
 
@@ -236,8 +251,32 @@ ACID
 
 ### <u>Pentration Steps</u>
 
-Discovery, Reconnaisance, Enumeration, Vulnerability mapping, Expoitation, Report
-* DEVER
+PIVER
+* Planning
+* Information gathering and discovery
+* Vulenerability mapping
+* Expoitation
+* Report
+
+DEVER
+* Discovery
+* Reconnaisance
+* Enumeration
+* Vulnerability mapping
+* Expoitation
+* Report
+
+PAP - Pen testing from CEH 
+* Planning or pre-attack
+* Assessment or attack
+* Post-Assessment or post-attack
+
+Hacking phases (CEH)
+* Reconnasiance
+* Scanning
+* Gaining Access
+* Maintaining Access
+* Covering Tracks
 
 ### <u>Ring Model</u>
 
@@ -251,25 +290,6 @@ KODU
 
 
 # Unsorted
-
-PIVER - pen testing phases
-* Planning
-* Information gathering and discovery
-* Vulnerability scanning
-* Exploitation
-* Reporting
-
-PAP - Pen testing from CEH 
-* Planning or pre-attack
-* Assessment or attack
-* Post-Assessment or post-attack
-
-Hacking phases (CEH)
-* Reconnasiance
-* Scanning
-* Gaining Access
-* Maintaining Access
-* Covering Tracks
 
 RAID
 * RAID 1 = imagine the "1" is a mirror
