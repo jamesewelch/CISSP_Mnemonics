@@ -247,8 +247,28 @@ KODU
 
 # Unsorted
 
+PIVER - pen testing phases
+* Planning
+* Information gathering and discovery
+* Vulnerability scanning
+* Exploitation
+* Reporting
+
+PAP - Pen testing from CEH 
+* Planning or pre-attack
+* Assessment or attack
+* Post-Assessment or post-attack
+
+Hacking phases (CEH)
+* Reconnasiance
+* Scanning
+* Gaining Access
+* Maintaining Access
+* Covering Tracks
+
 RAID
 * RAID 1 = imagine the "1" is a mirror
+* RAID 0 = imagine a circle of writing across multiple disks
 
 Layers of Attack
 * Layer 7 = Worms
