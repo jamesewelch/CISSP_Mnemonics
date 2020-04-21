@@ -298,10 +298,10 @@ RAID
 
 | Layer  | Name |  Attacks | Hardware | Protocols  
 | --- | --- | --- | --- | ---
-| Layer 7 | Applicaton | Worms | applications | HTTP, SMTP, etc 
-| Layer 6 |Presentation| ? | encryption, files | .jpg, .mime, etc   
-| Layer 5 |Session|? | ? |?
-| Layer 4 |Transport|SYN, Fraggle|?|?
-| Layer 3 |Network| Loki, Smurf, Teardrop| routers, firewalls
-| Layer 2 |Data Link|    ?     | switches   | ARP 
-| Layer 1 | Physical| ? | hubs  | ?
+| Layer 7 | Applicaton | Worms | applications | SOAP, DHCP, HTTP/S, DNS, POP3, SMTP, FTP, NTP
+| Layer 6 |Presentation| ? | .jpg, .mime, etc  | TLS, SSL, FTP, IMAP, SSH, Telnet 
+| Layer 5 |Session|? | ? |H.245,NetBIOS,SOCKS
+| Layer 4 |Transport|SYN, Fraggle|?|NetBIOS, TCP, UDP
+| Layer 3 |Network| Loki, Smurf, Teardrop| routers, firewalls | IPX, NAT, AppleTalk, IP, IMP, RIP, OSPF, IPSec
+| Layer 2 |Data Link|    ?     | switches   | ARP, CHAP\PAP, FDDI, IEEE 802.11 WiFi & IEEE 802.16 WiMax, L2TP\PPP\PPTRP, VLAN
+| Layer 1 | Physical| ? | hubs  | DSL, ISDN, Frame Relay, Modems
