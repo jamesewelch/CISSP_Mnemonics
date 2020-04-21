@@ -295,11 +295,13 @@ RAID
 * RAID 1 = imagine the "1" is a mirror
 * RAID 0 = imagine a circle of writing across multiple disks
 
-Layers of Attack
-* Layer 7 = Worms
-* Layer 6 = 
-* Layer 5 = 
-* Layer 4 = SYN Fraggle
-* Layer 3 = Loki Smurf Teardrop
-* Layer 2 = ARP
-* Layer 1 = Physical
+
+| Layer  | Name |  Attacks | Hardware | Protocols  
+| --- | --- | --- | --- | ---
+| Layer 7 | Applicaton | Worms | applications | HTTP, SMTP, etc 
+| Layer 6 |Presentation| ? | encryption, files | .jpg, .mime, etc   
+| Layer 5 |Session|? | ? |?
+| Layer 4 |Transport|SYN, Fraggle|?|?
+| Layer 3 |Network| Loki, Smurf, Teardrop| routers, firewalls
+| Layer 2 |Data Link|    ?     | switches   | ARP 
+| Layer 1 | Physical| ? | hubs  | ?
