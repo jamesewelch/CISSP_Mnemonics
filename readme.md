@@ -137,8 +137,9 @@ Clark-Wilson
 
 ### <u>Firewalls</u>
 
-Firewalls are layer 3, 5, 7 (odd)
-* Layer 3 = Static Packets
+Firewalls are layer 1, 4, 5, 7 
+* Layer 1 = Stateless
+* Layer 4 = Stateful
 * Layer 5 = Circuit, Stateful, Anomaly
 * Layer 7 = Application
 
@@ -254,9 +255,9 @@ ACID
 PIVER
 * Planning
 * Information gathering and discovery
-* Vulenerability mapping
+* Vulenerability mapping\scanning
 * Expoitation
-* Report
+* Reporting
 
 DEVER
 * Discovery
@@ -286,9 +287,7 @@ KODU
 * 1 Operating System
 * 2 Drivers
 * 3 User
-
-
-
+ 
 # Unsorted
 
 RAID
@@ -298,10 +297,10 @@ RAID
 
 | Layer  | Name |  Attacks | Hardware | Protocols  
 | --- | --- | --- | --- | ---
-| Layer 7 | Applicaton | Worms | applications, application firewall, proxy firewalls | SOAP, DHCP, HTTP/S, DNS, POP3, SMTP, FTP, NTP
+| Layer 7 | Applicaton | Worms | applications, application firewall, proxy firewalls | SOAP, DHCP, HTTP/S, DNS, POP3, SMTP, FTP, NTP, IMAP
 | Layer 6 |Presentation| ? | .jpg, .mime, etc  | TLS, SSL, FTP, IMAP, SSH, Telnet 
 | Layer 5 |Session|? | Circuit Firewalls |H.245,NetBIOS,SOCKS
 | Layer 4 |Transport|SYN, Fraggle|Stateful Firewalls|NetBIOS, TCP, UDP
-| Layer 3 |Network| Loki, Smurf, Teardrop| routers, Stateful Firewalls | IPX, NAT, AppleTalk, IP, IMP, RIP, OSPF, IPSec
+| Layer 3 |Network| Loki, Smurf, Teardrop| routers | IPX, NAT, AppleTalk, IP, ICMP, RIP, OSPF, IPSec
 | Layer 2 |Data Link|    MAC spoofing     | switches, bridges   | ARP, CHAP\PAP, FDDI, IEEE 802.11 WiFi & IEEE 802.16 WiMax, L2TP\PPP\PPTRP, VLAN
 | Layer 1 | Physical| evesdropping (splicing wires) | hubs, repeaters statelss firewalls  | DSL, ISDN, Frame Relay, Modems
